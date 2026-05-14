@@ -26,6 +26,19 @@ playwright-demo/
 ├── requirements.txt
 
 
+~~~~
+Import sync_playwright
+        ↓
+Start Playwright session
+        ↓
+Launch browser
+        ↓
+Open page
+        ↓
+Perform actions
+        ↓
+Close resources automatically
+
 
 
 
