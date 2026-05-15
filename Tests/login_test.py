@@ -24,8 +24,13 @@ def test_login():
 
         # Validation
         assert page.locator(".title").inner_text() == "Products"
-
+        page.screenshot(path="login_success.png")
         print("Login Test Passed")
 
         # Close browser
         browser.close()
+
+
+
+
+# for runnig this test use command: "python -m pytest tests/login_test.py"
